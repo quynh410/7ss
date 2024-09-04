@@ -2,7 +2,7 @@
 import { useSearchParams } from 'next/navigation'
 import React from 'react'
 
-export default function page() {
+export default function Page() {
     const search = useSearchParams(); 
     const userName = search.get('name');
     console.log(userName);
